@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="logo.png" width="180" alt="SnowCat 雪猫" />
+<img src="snowcat-logo.png" width="180" alt="SnowCat 雪猫" />
 
 # SnowCat 雪猫
 
