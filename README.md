@@ -97,6 +97,32 @@ NapCat 4.18.28 底座 × SnowLuma 独门能力融合，**全功能运行于 QQ 9
 #    → http://127.0.0.1:6099/webui/
 ```
 
+
+---
+
+## 🧭 引路指引：大骚货（dsh）官方接入插件全家福
+
+SnowCat 不是孤岛。我们生态里已经跑通一整套「dsh（DeepSeek Harness）大沙盒 × QQ 智能体」的接入插件，全部开源，装上即用——**这就是自建机器人的完整形态**：
+
+| 插件 | 作用 | 仓库 |
+|---|---|---|
+| 📡 **dsh-channel-qq** | QQ 群聊/私聊通道插件，基于 OneBot v11（正是接 SnowCat 的那根线）。内置 Life Engine：可塑型记忆、内心独白、睡眠巩固、KB 检索 | [DandanLLab/dsh-channel-qq](https://github.com/DandanLLab/dsh-channel-qq) |
+| 👥 **dsh-plugin-team-group** | 团队群聊：角色卡（各挂预设/人格/模型）+ 群组 + 导演发言规划器 + 逐角色执行引擎 + 跨房会议 + 邀请审批流 | [DandanLLab/dsh-plugin-team-group](https://github.com/DandanLLab/dsh-plugin-team-group) |
+| 🧠 **dsh-life-engine** | 让 agent 拥有可塑型记忆、内心独白、睡眠巩固、好奇心引擎、情感连续性——智能体「活着」的那部分 | [DandanLLab/dsh-life-engine](https://github.com/DandanLLab/dsh-life-engine) |
+| 🗺️ **awesome-dsh-plugin** | dsh 插件精选列表：主题/工具/通道全收录 | [DandanLLab/awesome-dsh-plugin](https://github.com/DandanLLab/awesome-dsh-plugin) |
+| 🗡️ **dsh-purge** | 破甲：让所有模型都能破甲，可换提示词 | [DandanLLab/dsh-purge](https://github.com/DandanLLab/dsh-purge) |
+| 🆓 **dsh-our-free-model** | 装上即用免费模型（DeepSeek V4.1 Flash 等），无需登录注册填 Key | [DandanLLab/dsh-our-free-model](https://github.com/DandanLLab/dsh-our-free-model) |
+
+**接法一句话**：`SnowCat（客户端层）→ OneBot v11 / MCP（协议层）→ dsh-channel-qq（通道层）→ dsh 大沙盒（智能体层）→ 各插件（人格/群组/生活层）`。
+
+> 官方机器人太偏向工作流了。而这条链上每一环，都是为「你自己养智能体」而造。
+
+<div align="center">
+
+*从客户端到人格，全链开源。这不是工具箱，是一条完整的路。*
+
+</div>
+
 ## 📚 文档
 
 | 文档 | 内容 |
